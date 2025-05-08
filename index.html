@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en"> <!-- Default language set to English -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Darmawan - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="lang-en"> <!-- Default language class -->
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="https://www.adriandarmawan.com">ADRIAN DARMAWAN</a>
+            </div>
+
+            <!-- Header Buttons Container -->
+            <div class="header-buttons">
+                <!-- Desktop Navigation (Hidden on Mobile) -->
+                <nav class="desktop-nav" id="desktop-nav">
+                    <div class="nav-container">
+                        <ul>
+                            <li><a href="#hero"><span lang="en">Home</span><span lang="id">Beranda</span></a></li>
+                            <li><a href="#about"><span lang="en">About</span><span lang="id">Tentang</span></a></li>
+                            <li><a href="#skills"><span lang="en">Skills</span><span lang="id">Keahlian</span></a></li>
+                            <li><a href="#projects"><span lang="en">Projects</span><span lang="id">Proyek</span></a></li>
+                            <li><a href="#testimonials"><span lang="en">Testimonials</span><span lang="id">Testimoni</span></a></li>
+                            <li><a href="#contact"><span lang="en">Contact</span><span lang="id">Kontak</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Language Toggle (Visible on Desktop & Mobile Header) -->
+                <div class="header-language-switcher">
+                    <button data-lang="en" class="lang-button active">EN</button>
+                    <button data-lang="id" class="lang-button">ID</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Toggle - Moved outside header for stacking context -->
+    <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-controls="mobile-nav" aria-expanded="false">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+    </button>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>
+                    <span lang="en">Software Development & Technical Solutions Specialist</span>
+                    <span lang="id">Spesialis Pengembangan Perangkat Lunak & Solusi Teknis</span>
+                </h1>
+                <p class="subtitle">
+                    <span lang="en">Full-Stack Developer & Technical Support Specialist based in Tasikmalaya</span>
+                    <span lang="id">Pengembang Full-Stack & Spesialis Dukungan Teknis berbasis di Tasikmalaya</span>
+                </p>
+                <a href="#projects" class="cta-button">
+                    <span lang="en">View My Work</span>
+                    <span lang="id">Lihat Karya Saya</span>
+                </a>
+                <a href="#contact" class="secondary-link">
+                    <span lang="en">Contact Me</span>
+                    <span lang="id">Hubungi Saya</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>
+                    <span lang="en">About Me</span>
+                    <span lang="id">Tentang Saya</span>
+                </h2>
+                <div class="about-content">
+                  <img src="https://ugc.production.linktr.ee/13e112d4-33f6-4a45-9f8d-358956747742_IMG-20240908-210236-851.jpeg?io=true&size=avatar" alt="Adrian Darmawan - Profile Picture" class="profile-pic">
+                  <div class="about-text">
+                    <div lang="en">
+                        <p>Dedicated Software Engineering graduate with hands-on experience in hardware troubleshooting, software support, and mobile application prototyping. I bring together technical know-how with strong communication and organizational skills honed through leadership roles in school organizations.</p>
+                        <p>I'm passionate about developing practical tech solutions that enhance efficiency and user satisfaction. During my internship at CV Daya Cipta Mandiri Komputer, a computer retail and service company, I contributed to diagnosing customer device issues and built a web-based prototype to streamline service management, potentially reducing customer wait times by up to 25%.</p>
+                        <p>My diverse background allows me to confidently combine hardware repair expertise with software development abilities, equipping me to take on a wide range of technical challenges in real-world environments.</p>
+                    </div>                    
+                    <div lang="id">
+                        <p>Lulusan Rekayasa Perangkat Lunak yang berdedikasi dengan pengalaman langsung dalam pemecahan masalah perangkat keras, dukungan perangkat lunak, dan pembuatan prototipe aplikasi mobile. Saya memadukan keahlian teknis dengan kemampuan komunikasi dan organisasi yang kuat, yang diasah melalui peran kepemimpinan di organisasi sekolah.</p>
+                        <p>Saya memiliki semangat dalam mengembangkan solusi teknologi praktis yang meningkatkan efisiensi dan kepuasan pengguna. Selama magang di CV Daya Cipta Mandiri Komputer, sebuah perusahaan ritel dan layanan komputer, saya membantu mendiagnosis masalah perangkat pelanggan dan mengembangkan prototipe mobile application untuk mempermudah manajemen layanan, yang berpotensi mengurangi waktu tunggu pelanggan hingga 25%.</p>
+                        <p>Latar belakang saya yang beragam memungkinkan saya untuk memadukan keahlian dalam perbaikan perangkat keras dan pengembangan perangkat lunak, sehingga siap menghadapi berbagai tantangan teknis di lingkungan kerja nyata.</p>
+                    </div>                    
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>
+                    <span lang="en">Core Skills</span>
+                    <span lang="id">Keahlian Utama</span>
+                </h2>
+                <ul class="skills-list">
+                    <li>Hardware & Software Troubleshooting</li>
+                    <li>Web Application Development (HTML, CSS, JavaScript, PHP)</li>
+                    <li>UI/UX Design with Figma & Canva</li>
+                    <li>Social Media Management</li>
+                    <li>Technical Documentation</li>
+                    <li>Project Management</li>
+                    <li>Presentation & Public Speaking</li>
+                    <li>Bilingual (English/Indonesian)</li>
+                </ul>
+            </div>
+        </section>
+
+         <section id="services" class="services-section">
+            <div class="container">
+                <h2>
+                    <span lang="en">What I Do</span>
+                    <span lang="id">Apa yang Saya Lakukan</span>
+                </h2>
+                 <div class="service-items">
+                    <div class="service-item">
+                        <h3>
+                            <span lang="en">Web Development</span>
+                            <span lang="id">Pengembangan Web</span>
+                        </h3>
+                        <p lang="en">Building responsive and functional web applications using HTML, CSS, JavaScript, and PHP. I create solutions that are both user-friendly and technically robust.</p>
+                        <p lang="id">Membangun aplikasi web yang responsif dan fungsional menggunakan HTML, CSS, JavaScript, dan PHP. Saya menciptakan solusi yang ramah pengguna dan kuat secara teknis.</p>
+                    </div>
+                     <div class="service-item">
+                        <h3>
+                            <span lang="en">UI/UX Design & Prototyping</span>
+                            <span lang="id">Desain UI/UX & Prototyping</span>
+                        </h3>
+                        <p lang="en">Designing user flows, wireframes, and interactive prototypes in Figma and Canva, focusing on intuitive user experiences and clean visual aesthetics for web and mobile applications.</p>
+                        <p lang="id">Merancang alur pengguna, wireframe, dan prototipe interaktif di Figma dan Canva, fokus pada pengalaman pengguna yang intuitif dan estetika visual yang bersih untuk aplikasi web dan mobile.</p>
+                    </div>
+                     <div class="service-item">
+                        <h3>
+                            <span lang="en">Bot Development</span>
+                            <span lang="id">Pengembangan Bot</span>
+                        </h3>
+                        <p lang="en">Creating automated solutions and chatbots for Telegram and other platforms that streamline processes and enhance user interaction through API integrations and serverless technologies.</p>
+                        <p lang="id">Membuat solusi otomatis dan chatbot untuk Telegram dan platform lain yang merampingkan proses dan meningkatkan interaksi pengguna melalui integrasi API dan teknologi serverless.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3><span lang="en">Technical Support & Maintenance</span><span lang="id">Dukungan & Pemeliharaan Teknis</span></h3>
+                        <p lang="en">Assisting with technical support and maintenance tasks as an intern at a computer retail and service company, focusing on diagnosing hardware/software issues, performing basic repairs, and supporting system upkeep for customer devices.</p>
+                        <p lang="id">Membantu tugas dukungan dan pemeliharaan teknis sebagai intern di perusahaan ritel dan layanan komputer, dengan fokus pada diagnosis masalah perangkat keras/lunak, melakukan perbaikan dasar, serta mendukung pemeliharaan sistem untuk perangkat pelanggan.</p>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2>
+            <span lang="en">Featured Projects</span>
+            <span lang="id">Proyek Unggulan</span>
+        </h2>
+        <div class="project-grid">
+
+            <!-- Web Service Pickup Application - Tetap di posisi teratas -->
+            <article class="project-card featured-project">
+                <a href="https://drive.google.com/file/d/1n38d_1HOdU8dTVtEQSbvikHwOylSBhIC/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/Porto-AmbilCepat-Prototype.png" alt="Web Service Pickup Application">
+                    <div class="card-content">
+                        <div class="project-highlight">
+                            <span lang="en">Featured</span>
+                            <span lang="id">Unggulan</span>
+                        </div>
+                        <h3>Pickup Services Mobile Application - Prototype</h3>
+                        <p class="tech-stack"><strong><span lang="en">Tech:</span><span lang="id">Teknologi:</span></strong> Figma</p>
+                        <p lang="en">Developed a mobile application service management system prototype during my internship at DCM to streamline manual processes, featuring real-time status tracking and pickup coordination that reduced customer wait times by 25%.</p>
+                        <p lang="id">Mengembangkan prototipe sistem manajemen layanan aplikasi mobile selama magang di DCM untuk merampingkan proses manual, dengan fitur pelacakan status real-time dan koordinasi pengambilan yang mengurangi waktu tunggu pelanggan hingga 25%.</p>
+                        <span class="project-link"><span lang="en">View Project</span><span lang="id">Lihat Proyek</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- To-Do List Web App -->
+            <article class="project-card">
+                <a href="https://github.com/adriandrmawan/To-Do-List" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/Porto-Todo-List.png" alt="To-Do List Web Application">
+                    <div class="card-content">
+                        <h3>To-Do List Web App</h3>
+                        <p class="tech-stack"><strong><span lang="en">Tech:</span><span lang="id">Teknologi:</span></strong> PHP, MySQL, HTML5, CSS3, JavaScript</p>
+                        <p lang="en">Full-stack task management system with user authentication, CRUD operations, and real-time updates. Features priority levels, deadlines, and responsive design for optimal use on all devices.</p>
+                        <p lang="id">Sistem manajemen tugas full-stack dengan autentikasi pengguna, operasi CRUD, dan pembaruan real-time. Fitur prioritas, tenggat waktu, dan desain responsif untuk penggunaan optimal di semua perangkat.</p>
+                        <span class="project-link"><span lang="en">View Project</span><span lang="id">Lihat Proyek</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Digital Store Prototype -->
+            <article class="project-card">
+                <a href="https://drive.google.com/file/d/1iLoGEEJK53mPdih0fVaQAWN0n9XgHJLN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/Porto-Digital-Store-Prototype.png" alt="Digital Store Prototype">
+                    <div class="card-content">
+                        <h3>Digital Store Prototype</h3>
+                        <p class="tech-stack"><strong><span lang="en">Tech:</span><span lang="id">Teknologi:</span></strong> Figma</p>
+                        <p lang="en">Designed and implemented a user-friendly e-commerce prototype for digital products like mobile credits, focusing on intuitive UI/UX and streamlined checkout process.</p>
+                        <p lang="id">Merancang dan mengimplementasikan prototipe e-commerce yang ramah pengguna untuk produk digital seperti pulsa, berfokus pada UI/UX yang intuitif dan proses checkout yang efisien.</p>
+                        <span class="project-link"><span lang="en">View Project</span><span lang="id">Lihat Proyek</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Telegram Prayer Times Bot -->
+            <article class="project-card">
+                <a href="https://github.com/adriandrmawan/Prayer-Times-TelegramBot" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/Porto-PrayerTimes.png" alt="Telegram Prayer Times Bot">
+                    <div class="card-content">
+                        <h3>Telegram Prayer Times Bot</h3>
+                        <p class="tech-stack"><strong><span lang="en">Tech:</span><span lang="id">Teknologi:</span></strong> JavaScript, Cloudflare Workers, Aladhan API</p>
+                        <p lang="en">Built a Telegram bot that provides accurate prayer times for any location globally using the Aladhan API. Features include daily schedules, weekly forecasts, and location-based qibla direction.</p>
+                        <p lang="id">Membangun bot Telegram yang menyediakan waktu sholat akurat untuk lokasi manapun di dunia menggunakan API Aladhan. Fitur termasuk jadwal harian, perkiraan mingguan, dan arah kiblat berdasarkan lokasi.</p>
+                        <span class="project-link"><span lang="en">View Project</span><span lang="id">Lihat Proyek</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Tech News Media -->
+            <article class="project-card social-media">
+                <a href="https://instagram.com/maxq.daily" target="_blank" rel="noopener noreferrer">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Tech News Media Instagram">
+                    <div class="card-content">
+                        <h3>Tech News Media</h3>
+                        <p class="tech-stack"><strong><span lang="en">Platform:</span><span lang="id">Platform:</span></strong> Instagram</p>
+                        <p lang="en">Tech-focused Instagram account featuring the latest trends, reviews, and innovations in the tech industry with optimized content for better engagement and growth.</p>
+                        <p lang="id">Akun Instagram berfokus pada teknologi yang menampilkan tren terbaru, ulasan, dan inovasi di industri teknologi dengan konten yang dioptimalkan untuk keterlibatan dan pertumbuhan yang lebih baik.</p>
+                        <span class="project-link"><span lang="en">Follow</span><span lang="id">Ikuti</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Telegram GoFile Upload Bot -->
+            <article class="project-card">
+                <a href="https://github.com/adriandrmawan/Gofile-Telegram-Bot" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/Porto-GoFIle.png" alt="Telegram GoFile Upload Bot">
+                    <div class="card-content">
+                        <h3>Telegram GoFile Upload Bot</h3>
+                        <p class="tech-stack"><strong><span lang="en">Tech:</span><span lang="id">Teknologi:</span></strong> JavaScript, Cloudflare Workers, Telegram API, GoFile API</p>
+                        <p lang="en">Developed a serverless Telegram bot that allows users to upload files directly to GoFile.io. Features include personal account integration, file management, and status monitoring.</p>
+                        <p lang="id">Mengembangkan bot Telegram serverless yang memungkinkan pengguna mengunggah file langsung ke GoFile.io. Fitur termasuk integrasi akun pribadi, manajemen file, dan pemantauan status.</p>
+                        <span class="project-link"><span lang="en">View Project</span><span lang="id">Lihat Proyek</span> &rarr;</span>
+                    </div>
+                </a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+        
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2>
+                    <span lang="en">What They Say About Me</span>
+                    <span lang="id">Apa Kata Mereka Tentang Saya</span>
+                </h2>
+                <div class="testimonial-items">
+                    <blockquote class="testimonial-item">
+                        <p lang="en">"Adrian showed outstanding problem-solving skills during his internship with us. The mobile application prototype he developed helped improve our service management workflow and holds strong potential for future implementation."</p>
+                        <p lang="id">"Adrian menunjukkan keterampilan pemecahan masalah yang luar biasa selama masa magangnya bersama kami. Prototipe aplikasi mobile yang ia kembangkan membantu meningkatkan alur kerja manajemen layanan kami dan memiliki potensi kuat untuk diimplementasikan di masa mendatang."</p>
+                        <cite>– Owner, CV Daya Cipta Mandiri Komputer</cite>
+                    </blockquote>
+                    <blockquote class="testimonial-item">
+                        <p lang="en">"Adrian played a key role in enhancing our extracurricular club's social media presence. His design instincts and understanding of our audience led to a 30% increase in engagement and made our content more effective and visually appealing."</p>
+                        <p lang="id">"Adrian berperan penting dalam meningkatkan kehadiran media sosial ekstrakurikuler kami. Kepekaan desainnya dan pemahamannya terhadap audiens menghasilkan peningkatan keterlibatan sebesar 30% serta membuat konten kami lebih efektif dan menarik secara visual."</p>
+                        <cite>– Chairperson, Komputer Club (School Extracurricular)</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>                
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>
+                    <span lang="en">Contact Me</span>
+                    <span lang="id">Hubungi Saya</span>
+                </h2>
+                <p lang="en">I'm always open to discussing new projects, collaboration opportunities, or just chatting about technology and design.</p>
+                <p lang="id">Saya selalu terbuka untuk diskusi mengenai proyek baru, peluang kolaborasi, atau sekadar bertukar pikiran tentang teknologi dan desain.</p>
+                <p lang="en">Feel free to send an email or connect via social media!</p>
+                <p lang="id">Jangan ragu untuk mengirimkan email atau terhubung melalui media sosial!</p>
+                <a href="mailto:adriandarmawan@email.com" class="cta-button email-button">adriandarmawan@email.com</a>
+
+                <div class="social-links">
+                   <a href="https://linkedin.com/in/adriandrmawan" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="LinkedIn Profile">
+                       <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18px" height="18px"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                       LinkedIn
+                   </a> |
+                   <a href="https://github.com/adriandrmawan" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="GitHub Profile">
+                       <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18px" height="18px"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                       GitHub
+                   </a> |
+                   <a href="https://instagram.com/adrian.8w" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="Instagram Profile">
+                       <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18px" height="18px"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.172.053 1.872.218 2.548.465.78.297 1.432.672 2.067 1.311.635.635 1.01 1.288 1.311 2.067.247.676.412 1.375.465 2.548.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.053 1.172-.218 1.872-.465 2.548-.297.78-.672 1.432-1.311 2.067-.635.635-1.288 1.01-2.067 1.311-.676.247-1.375.412-2.548.465-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.172-.053-1.872-.218-2.548-.465-.78-.297-1.432-.672-2.067-1.311-.635-.635-1.01-1.288-1.311-2.067-.247-.676-.412-1.375-.465-2.548-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.053-1.172.218-1.872.465-2.548.297-.78.672-1.432 1.311-2.067.635-.635 1.288-1.01 2.067-1.311.676-.247 1.375-.412 2.548-.465 1.266.058 1.646.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-1.356.06-2.327.248-3.163.575-.85.325-1.6.75-2.323 1.473-.727.727-1.148 1.473-1.473 2.323-.327.836-.515 1.807-.575 3.163-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.06 1.356.248 2.327.575 3.163.325.85.75 1.6 1.473 2.323.727.727 1.473 1.148 2.323 1.473.836.327 1.807.515 3.163.575 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.356-.06 2.327-.248 3.163-.575.85-.325 1.6-.75 2.323-1.473.727-.727 1.148-1.473 1.473-2.323.327-.836.515-1.807.575-3.163.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.06-1.356-.248-2.327-.575-3.163-.325-.85-.75-1.6-1.473-2.323-.727-.727-1.473-1.148-2.323-1.473-.836-.327-1.807-.515-3.163-.575-1.28-.058-1.688-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                       Instagram
+                   </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer-bottom">
+        <div class="container">
+            <p>
+                <span lang="en">&copy; 2025 Adrian Darmawan. All Rights Reserved.</span>
+                <span lang="id">&copy; 2025 Adrian Darmawan. Hak Cipta Dilindungi.</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Mobile Menu Overlay -->
+    <div class="fullscreen-menu-overlay" aria-hidden="true">
+        <nav class="mobile-nav" id="mobile-nav">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#hero"><span lang="en">Home</span><span lang="id">Beranda</span></a></li>
+                    <li><a href="#about"><span lang="en">About</span><span lang="id">Tentang</span></a></li>
+                    <li><a href="#skills"><span lang="en">Skills</span><span lang="id">Keahlian</span></a></li>
+                    <li><a href="#projects"><span lang="en">Projects</span><span lang="id">Proyek</span></a></li>
+                    <li><a href="#testimonials"><span lang="en">Testimonials</span><span lang="id">Testimoni</span></a></li>
+                    <li><a href="#contact"><span lang="en">Contact</span><span lang="id">Kontak</span></a></li>
+                    <!-- Language switcher removed from here -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
